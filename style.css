@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins&display=swap');
+/*font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;*/
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    background-color:#E5E5E5; 
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+}
+input[type="checkbox"]{
+    width:20px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 500px;
+    border-radius: 54px;
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 20px 40px;
+    letter-spacing: 0.5px;
+}
+.container button:first-child{
+    position: absolute;
+    top: 23px;
+    right: 20px;
+    border: 0;
+    background-color: transparent;
+    color: #8A8AAA;
+    font-size:35px ;
+    cursor: pointer;
+}
+.container .title{
+    color:#3B3B71 ;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+.container p:nth-child(3){
+    font-size: 14px;
+    color:#8A8AAA;
+    margin-top: 0;
+}
+.container .checklist{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #3B3B71;
+    font-size: 14px;
+}
+.container .checklist .checkitem{
+    margin-top: 10px;
+}
+
+.container .checklist .checkitem input{
+    margin-right: 15px;
+}
+.completedtitle{
+    margin-top: 20px;
+}
+.container .compchecklist{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #8A8AAA;
+    font-size: 14px;
+}
+.container .compchecklist .compcheckitem{
+    margin-top: 10px;
+}
+.checklist .compcheckitem input{
+    margin-right: 15px;
+}
+.container .plusbtn{
+    border: 0;
+    border-radius: 12px;
+    background-color: #3B3B71;
+    color: #fff;
+    font-size: 19px;
+    width: 55px;
+    height: 39px;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.container .plusbtn:hover{
+    background-color: #E5E5E5;
+    color: #3B3B71;
+    transition: 0.3s;
+}
